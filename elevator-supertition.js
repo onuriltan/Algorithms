@@ -11,4 +11,4 @@ function elevatorSupertition(input) {
   console.log(luckyArray[input-1]);
 }
 
-//elevatorSupertition(12);
+elevatorSupertition(12);
