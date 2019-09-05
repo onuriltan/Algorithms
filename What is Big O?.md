@@ -62,15 +62,15 @@ Best example for this is Binary Search.
 
   **Binary Search:**
 
-In binary search there are two inputs, sorted array and element, where we need to find element from sorted array.
+In binary search there are two inputs, sorted list and element, where we need to find element from sorted list.
 
-  1. Instead of looking one by one, we look middle of the array
+  1. Instead of looking one by one, we look middle of the list
 
-  2. If element is smaller than the middle element,then we erase the half of the array that is bigger than the element
+  2. If element is smaller than the middle element of the sorted list,then we erase the half of the sorted list that is bigger than the element
 
-  3. By dividing element to middle, we make iteration from O(n) to O(logn), for example;
+  3. By dividing sorted list from middle, we make iteration from O(n) to O(logn), for example;
 
      * 4000 elements, 0(log4000) = 12 iteration
      * O(4000) = 4000 iteration
-     
+  
 **<font color='red'>From this info we can say that we need to aim logaritmic time in every algorithm</font>**
