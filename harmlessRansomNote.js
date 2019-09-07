@@ -4,7 +4,7 @@ function harmlessRansomNote(noteText, magazineText) {
     let noteArray = noteText.split(' ')
     let magazineArray = magazineText.split(' ')
 
-    // put number of occurences of words to hash table
+    // put number of occurrences of words to hash table
     // O(n)
     let magazineHashTable = { }
     magazineArray.forEach(word => {
